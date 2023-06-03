@@ -4,3 +4,10 @@ Realice un paquete con módulo basado en archivo:
 3. La función de superficie debe ser exportada por defecto.
 4. En el archivo main.js importar el archivo cuadrado.js y emplear sus funciones.
 5. Agregar a package.json un script para ejecutar main.js
+
+# Para ejecutar el punto 5 se debe escribir en la terminal npm start ya que en el package.json
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  }
