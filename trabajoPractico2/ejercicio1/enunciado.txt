@@ -1,0 +1,13 @@
+1- Realizar un paquete con módulo basado en archivo:
+a- Crear un paquete de NodeJS de tipo “module”.
+b- Agregar un archivo llamado aritmetica.js que exporte funciones para sumar, restar,
+multiplicar y dividir. La función sumar debe ser exportada por defecto. 
+c- En el archivo main.js importar el archivo aritmetica.js y emplear sus funciones.
+d- Agregar a package.json un script para ejecutar main.js.
+
+# Para ejecutar el punto (d) escribir en terminal npm start ya que en package.json
+
+  "scripts": {
+    "test": "test",
+    "start": "node main.js"
+  }
