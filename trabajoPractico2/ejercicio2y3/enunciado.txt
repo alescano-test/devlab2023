@@ -1,0 +1,12 @@
+2- Realizar un paquete que emplee el módulo OS de NodeJS:
+a- Crear un paquete de NodeJS de tipo “module”.
+b- En el archivo main.js importar el módulo OS y emplear sus funciones para mostrar
+información del equipo o sistema operativo. Por ejemplo: memoria libre y total; información de los
+procesadores; nombre del host; tipo, arquitectura o versión del sistema operativo; tiempo de
+ejecución; etc.
+c- Agregar a package.json un script para ejecutar main.js.
+
+
+3- Teniendo en cuenta el ejercicio anterior realizar lo siguiente:
+a- Instalar los módulos externos colors y pretty-bytes
+b- Emplear estos módulos para mejorar los mensajes mostrados.

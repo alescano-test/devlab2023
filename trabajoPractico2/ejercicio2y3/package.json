@@ -1,7 +1,7 @@
 {
-  "name": "ejercicio1",
+  "name": "ejercicio2y3",
   "version": "1.0.0",
-  "description": "Ejercicio 1 de trabajo práctico 2",
+  "description": "Ejercicio 2 y 3 de trabajo practico 2",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -13,12 +13,17 @@
     "url": "git+https://github.com/alescano-test/devlab2023.git"
   },
   "keywords": [
-    "ejercicios"
+    "practico"
   ],
   "author": "Alejandro Lescano",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alescano-test/devlab2023/issues"
   },
-  "homepage": "https://github.com/alescano-test/devlab2023#readme"
+  "homepage": "https://github.com/alescano-test/devlab2023#readme",
+  "dependencies": {
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "pretty-bytes": "^6.1.0"
+  }
 }
