@@ -7,17 +7,16 @@ const estudiantes = [
   { nombre: "David", notas: [100, 100, 100] },
 ];
 
-const promedioAlumnos = estudiantes.map((estudiante) => {
+const promedioAlumnos = estudiantes.map( estudiante => {
   const prom = estudiante.notas.reduce((acc, nota)=> {
     acc = acc+nota
     return acc
   })
   const alumno = { nombre : estudiante.nombre, notas : estudiante.notas = prom }
   return alumno
-});
-
-const mayorPromedio = promedioAlumnos.reduce((estudianteMayorProm, estudianteActual) => {
+}).reduce((estudianteMayorProm, estudianteActual) => {
   return estudianteActual.notas > estudianteMayorProm.notas ? estudianteActual : estudianteMayorProm
 });
 
-console.log(mayorPromedio);
+console.log(promedioAlumnos)
+//console.log(mayorPromedio);
